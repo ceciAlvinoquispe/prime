@@ -1,0 +1,357 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	font-size: 0.9em;
+}
+strong {
+	font-weight: 700;
+}
+h1 {
+	color: #4D4C4C;
+	font-weight: 400;
+	font-size: 2.1em;
+}
+/*fondo home*/
+
+.hero-image {
+	background-image: url(../img/background/hero.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: 645px;
+}
+.opacity {
+	background-color: black;
+	width: 100%;
+	height: 645px;
+	opacity: 0.6;
+}
+
+/*header fixed*/
+
+header {
+	width: 100%;
+	color: white;
+	padding: 2% 8%;
+	position: fixed;
+	z-index: 99;
+}
+header h2 {
+	float: left;
+}
+.over {
+	padding-top: 0.6%;
+	float: right;
+	width: 50%;
+	font-weight: 600;
+}
+.over a{
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 5%;
+	color: white;
+	transition: all 1s ease;
+}
+.over a:hover {
+	color: #00F0FF;
+	transition: all 1s ease;
+}
+/*texto del home*/
+.text-head {
+	position: relative;
+	margin: auto;
+	bottom: 26em;
+}
+.sub-title {
+	width: 61%;
+	margin: 2% auto;
+}
+.title {
+	font-size: 3.1em;
+	font-weight: 400;
+}
+
+/*boton del home*/
+.button {
+	margin-top: 5%;
+}
+.button a {
+	font-weight: 700;
+	color: white;
+	border: 1px solid #838181;
+	border-radius: 5px;
+	margin: 1.5%;
+	padding: 1.5%;
+	transition: all 1.5s ease;
+}
+.button a:hover {
+	background-color: #838383;
+	color: #000;
+	opacity: 0.8;
+	transition: all 1.5s ease;
+}
+
+/*6 iconos */
+
+.icons i {
+	font-size: 3em;
+	color: #10AEA5;
+}
+.icons .col-4 {
+	padding: 5%;
+}
+h4 {
+	font-weight: 600;
+	padding-top: 3%;
+	color: #4D4C4C;
+}
+.col-4 p {
+	padding-top: 3%;
+	color: #888;
+}
+
+/*background laptop*/
+
+.More-Features img {
+	width: 75%;
+}
+/* 6 iconos pequeños */
+
+.col-1 i {
+	padding-top: 15%;
+	float: right;
+	font-size: 1.9em;
+	color: #10AEA5;
+}
+.iconos-small ,.iconos-small .row {
+	padding: 2% 0%;
+}
+.row .col-5 {
+	padding: 0%;
+}
+.col-5 p {
+	line-height: 1.1em;
+	color: #888;
+}
+
+/*portafolio*/
+
+.portafolio h1 {
+	padding-bottom: 1%;
+}
+.portafolio p {
+	color: #888;
+}
+.portafolio .row {
+	padding: 1%;
+}
+/*5 botones*/
+
+.five-button a {
+	background-color: #fff;
+	font-weight: 700;
+	border-radius: 4px;
+	padding: 1% 2%;
+	color: #060B3C;
+	transition: all 1.5s ease;
+}
+.five-button a:hover {
+	background-color: #10AEA5;
+	color: #fff;
+	transition: all 1.5s ease;
+}
+
+/*cajas blancas con foto */
+
+.box-white {
+	background-color: #fff;
+	padding: 2%;
+  box-shadow: 0px 1px 25px -6px rgba(0,0,0,0.75);
+}
+.box-white img {
+	width: 100%;
+}
+.load-button {
+	margin-top: 5%;
+}
+.load-button a {
+	background-color: #888;
+	padding: 1%;
+	color: #fff;
+}
+.load-button a:hover {
+	background-color: #10AEA5;
+	color: #fff;
+	transition: all 1.5s ease;
+}
+
+/*backaground completo */
+
+.background-complet {
+	background-image: url(../img/background/city.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 420px;
+}
+
+.opacity-back {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 420px;
+	opacity: 0.6;
+}
+
+.background-complet .text-head {
+	position: relative;
+	margin: auto;
+	bottom: 26em;
+	margin-bottom: 5%;
+}
+.text-head a {
+	border: 1px solid #888;
+	border-radius: 5px;
+	padding: 1%;
+	color: #fff;
+}
+.text-head a:hover {
+	background-color: #10AEA5;
+	color: #fff;
+	transition: all 1.5s ease;
+}
+
+/*imagen completa */
+
+.package .row{
+	padding: 2% 5%;
+}
+.choose{
+	background-color: white;
+	padding: 10% 5% 15%;
+}
+.box-color{
+	background-color:#24282E;
+	padding: 8%;
+}
+.dolar{
+	font-size: 1.7em;
+	color:#6E6E6E;
+	font-weight: normal;
+}
+.box-green{
+	background-color: #0dc0c0;
+	padding: 8%;
+}
+
+.borde-bottom{
+	border-bottom: solid 1px #D8D8D8;
+	padding: 5%;
+	width: 80%;
+	margin: 0 auto;
+}
+.comprar a {
+	padding: 3% 10%;
+	margin:5%;
+	color: white;
+	transition:all 0.5s ease;
+	border: solid 1px white;
+	background-color: #24282E;
+
+}
+.comprar a:hover {
+	background-color: #0dc0c0;
+	color: black;
+	transition: all 0.5s ease;
+}
+.text-bold{
+	font-weight: bold;
+}
+.paquete{
+	font-size: 2em;
+	color: white;
+	font-weight: normal;
+}
+
+/*CUSTOMER*/
+.customer img{
+	border-radius: 100%;
+	width: 10%;	
+}
+.customer div{
+	padding: 0 18% 5%;
+}
+.customer p{
+	padding: 0.5%;
+	font-weight: 600;
+}
+.customer h3{
+	font-size: 2em;
+	font-weight: normal;
+}
+
+/*Contacto*/
+.contactos{
+	background: url(../img/background/contactus.jpg);
+	height: 677px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opacity-contact{
+	width: 100%;
+	height: 677px;
+	background-color: rgba(0,0,0,0.6);
+}
+.email input{
+	padding: 5% 109% 5% 0;
+	margin-bottom: 10%;
+}
+.nombre input{
+	padding: 5% 109% 5% 0;
+	margin-bottom: 10%;
+}
+.mensaje textarea{
+	padding: 5% 0% 5% 0;
+	margin-bottom: 10%;
+}
+a .boton_enviar{
+	padding: 10% 5%;
+	color: black;
+	transition:all 0.5s ease;
+	border: solid 1px white;
+	background-color:#0dc0c0;
+}
+.text-about{
+	padding-right: 25%; 
+}
+input,textarea{
+	background-color: rgba(0, 0, 0, 0.3);
+	border: none;
+}
+button {
+	padding: 5% 15%;
+	color: white;
+	transition:all 0.5s ease;
+	background-color: #0dc0c0;
+	position: relative;
+	right: 26%;
+}
+button:hover {
+	background-color: gray;
+	color: black;
+	transition: all 0.5s ease;
+}
+/*section end*/
+.end p{
+	padding: 0 20%;
+}
+.end i{
+	font-size: 2.5em;
+	color:  #585858;
+	padding:0.5%;
+}
+.end h2{
+	font-size: 1.8em;
+	font-weight: normal;
+}
+.honores{
+	padding: 2.5%;
+}
